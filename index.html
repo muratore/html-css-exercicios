@@ -5,9 +5,249 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-  https://brasilescola.uol.com.br/geografia/galaxia.htm
+  <header>
+    <div id="topo">
+    <div class="topoBox">
+      <div class="socialBox">
+        <a href="">
+        <svg width="25" height="25" viewBox="0 0 32 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M11.8953 4.25822C14.659 1.53173 18.4073 0 22.3158 0H29.8947C31.0574 0 32 0.92987 32 2.07692V12.0462C32 13.1932 31.0574 14.1231 29.8947 14.1231H22.3158C22.2041 14.1231 22.097 14.1668 22.018 14.2447C21.9391 14.3226 21.8947 14.4283 21.8947 14.5385V19.9385H29.8947C30.543 19.9385 31.1551 20.2331 31.5541 20.7372C31.9531 21.2413 32.0944 21.8986 31.9371 22.5191L29.4108 32.4883C29.1765 33.4129 28.3344 34.0615 27.3684 34.0615H21.8947V51.9231C21.8947 53.0701 20.9522 54 19.7895 54H9.6842C8.5215 54 7.57894 53.0701 7.57894 51.9231V34.0615H2.10526C0.942558 34.0615 0 33.1317 0 31.9846V22.0154C0 20.8683 0.942558 19.9385 2.10526 19.9385H7.57894V14.5385C7.57894 10.6826 9.13157 6.98471 11.8953 4.25822ZM22.3158 4.15385C19.524 4.15385 16.8466 5.24794 14.8726 7.19543C12.8985 9.14292 11.7895 11.7843 11.7895 14.5385V22.0154C11.7895 23.1624 10.8469 24.0923 9.6842 24.0923H4.21052V29.9077H9.6842C10.8469 29.9077 11.7895 30.8376 11.7895 31.9846V49.8462H17.6842V31.9846C17.6842 30.8376 18.6268 29.9077 19.7895 29.9077H25.7247L27.1983 24.0923H19.7895C18.6268 24.0923 17.6842 23.1624 17.6842 22.0154V14.5385C17.6842 13.3266 18.1722 12.1644 19.0408 11.3075C19.9093 10.4506 21.0874 9.96923 22.3158 9.96923H27.7895V4.15385H22.3158Z" fill="white"></path>
+      </svg>
+        </a>
+      </div>
+    <div class="socialBox"> 
+      <a href="">
+      <svg width="25" height="25" viewBox="0 0 52 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+       <path fill-rule="evenodd" clip-rule="evenodd" d="M33.3078 0.195898C34.5373 -0.0148403 35.9143 -0.0852038 37.2101 0.13415C39.5243 0.525903 41.662 1.60214 43.3517 3.21569C44.4563 3.24068 45.5418 3.02295 46.5023 2.71256C47.3152 2.44987 48.0019 2.13267 48.4831 1.88187C48.7224 1.75717 48.9072 1.65079 49.0273 1.57877C49.0873 1.54282 49.1309 1.51561 49.1568 1.49918L49.1798 1.48451C49.8977 1.00601 50.8535 1.09914 51.4652 1.70778C52.0769 2.31656 52.1755 3.27226 51.7008 3.99318C51.1984 4.75619 50.501 6.11639 49.7197 7.6404C49.5968 7.88003 49.4719 8.1237 49.3453 8.36974C48.8972 9.24085 48.4377 10.1213 48.0094 10.8766C47.7404 11.3509 47.4528 11.8324 47.1628 12.2485V12.9111C47.1812 15.3447 46.9022 17.7656 46.3361 20.1208C45.9799 21.6026 45.51 23.0585 44.929 24.4751C43.4236 28.1454 41.2023 31.4788 38.395 34.2805C35.5877 37.0823 32.2505 39.2962 28.5785 40.793C24.9097 42.2886 20.9801 43.0383 17.0188 42.9985C11.2763 43.0035 5.65462 41.3481 0.830195 38.2313C0.11961 37.7722 -0.179568 36.8827 0.109058 36.0872C0.397685 35.2917 1.1975 34.8013 2.03693 34.9053C2.76337 34.9952 3.49478 35.0392 4.22678 35.0367C6.85688 35.0294 9.43689 34.4479 11.7923 33.3525C11.0436 33.0115 10.3288 32.591 9.6609 32.0955C7.69769 30.6389 6.23708 28.6062 5.48231 26.2803C5.28618 25.6759 5.42026 25.0128 5.83581 24.5323C5.84325 24.5237 5.85077 24.5151 5.85835 24.5067C5.41447 24.1107 4.99913 23.6795 4.61676 23.2157C2.89637 21.1292 1.94906 18.5121 1.93508 15.8072L1.93503 15.7978L1.93506 15.6769C1.93506 15.0335 2.27548 14.4382 2.82983 14.1121C2.97035 14.0295 3.1193 13.9673 3.27252 13.9256C2.45423 12.2919 2.02869 10.4879 2.0318 8.65777C2.03083 6.5844 2.57211 4.54685 3.60185 2.74759C3.89912 2.22817 4.43322 1.8888 5.02947 1.84046C5.62573 1.79212 6.20746 2.04102 6.58443 2.50577C8.91246 5.3759 11.8179 7.72391 15.112 9.39726C16.8053 10.2575 18.5819 10.9295 20.4099 11.4048C21.4347 11.6714 22.4757 11.8761 23.5273 12.0174C23.4809 10.2672 23.8264 8.51784 24.5513 6.90145C25.6147 4.53029 27.4346 2.57935 29.7256 1.35461C30.6958 0.835941 31.9837 0.422823 33.3078 0.195898ZM6.0304 18.4607C6.34397 19.3438 6.81043 20.1722 7.41522 20.9057C8.60353 22.3469 10.2529 23.3332 12.0843 23.6977C12.9 23.8601 13.5009 24.5567 13.5421 25.3879C13.5833 26.2191 13.0542 26.9719 12.2585 27.2142C11.5994 27.4148 10.9242 27.5547 10.2413 27.6323C10.6926 28.2144 11.2234 28.7357 11.8218 29.1797C13.1791 30.1867 14.8163 30.7454 16.5057 30.7779C17.2722 30.7927 17.9467 31.288 18.1905 32.0152C18.4344 32.7425 18.195 33.5446 17.5925 34.0189C15.055 36.0167 12.1208 37.4098 9.01153 38.121C11.5885 38.9467 14.2912 39.3719 17.0249 39.3685L17.0459 39.3685C20.5288 39.4047 23.984 38.7462 27.2097 37.4313C30.4354 36.1164 33.3669 34.1716 35.833 31.7104C38.2991 29.2493 40.2503 26.3211 41.5727 23.0969C42.0831 21.8525 42.4959 20.5736 42.8088 19.2719C43.3066 17.2009 43.5517 15.0722 43.5349 12.9323L43.5349 12.9181V11.6355C43.5349 11.1954 43.6947 10.7703 43.9846 10.4393C44.1521 10.248 44.4452 9.80625 44.854 9.08533C45.2425 8.40017 45.6725 7.57761 46.1197 6.70838C46.1467 6.65582 46.1739 6.60297 46.2011 6.54989C45.0412 6.80192 43.7265 6.93402 42.3484 6.78499C41.9119 6.7378 41.5073 6.53382 41.2097 6.2109C39.9935 4.89119 38.3739 4.01272 36.6049 3.71327C35.82 3.5804 34.871 3.61081 33.9203 3.77377C32.8873 3.95082 31.9882 4.26061 31.4352 4.55627C29.8528 5.40222 28.5957 6.74978 27.8612 8.38759C27.1267 10.0254 26.9562 11.8608 27.3766 13.606C27.5106 14.1624 27.3745 14.7494 27.0093 15.19C26.6441 15.6305 26.0927 15.8728 25.5215 15.8439C23.4816 15.7407 21.4633 15.4294 19.4973 14.9181C17.4175 14.3773 15.3963 13.6127 13.4697 12.634C10.6332 11.1931 8.05 9.31255 5.81319 7.06755C5.71114 7.58933 5.65934 8.12179 5.65969 8.65769L5.65969 8.66233C5.65716 9.99506 5.98403 11.3077 6.6112 12.4835C7.23836 13.6592 8.14636 14.6616 9.25435 15.4013C9.92677 15.8502 10.2212 16.6901 9.97629 17.4609C9.7314 18.2317 9.00631 18.7474 8.19825 18.7254C7.4664 18.7054 6.74067 18.6164 6.0304 18.4607Z" fill="white"></path>
+      </svg>
+    </a>
+      </div>
+      <div class="socialBox">
+        <a href="">
+        <svg width="25" height="25" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M38.4381 12.7257C38.4381 11.149 39.7184 9.87086 41.2976 9.87086C42.8769 9.87086 44.1572 11.149 44.1572 12.7257C44.1572 14.3024 42.8769 15.5806 41.2976 15.5806C39.7184 15.5806 38.4381 14.3024 38.4381 12.7257Z" fill="white"></path>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M27 13.4394C19.4984 13.4394 13.4172 19.5107 13.4172 27C13.4172 34.4893 19.4984 40.5606 27 40.5606C34.5015 40.5606 40.5828 34.4893 40.5828 27C40.5828 19.5107 34.5015 13.4394 27 13.4394ZM17.7065 27C17.7065 21.8757 21.8673 17.7217 27 17.7217C32.1326 17.7217 36.2935 21.8757 36.2935 27C36.2935 32.1243 32.1326 36.2783 27 36.2783C21.8673 36.2783 17.7065 32.1243 17.7065 27Z" fill="white"></path>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M42.0361 0.829566C32.1233 -0.276522 21.8767 -0.276522 11.9639 0.829566C6.21031 1.47156 1.56547 5.99654 0.88904 11.7706C-0.296347 21.889 -0.296347 32.111 0.88904 42.2294C1.56547 48.0035 6.21032 52.5284 11.9639 53.1704C21.8767 54.2765 32.1233 54.2765 42.0361 53.1704C47.7897 52.5284 52.4345 48.0035 53.111 42.2294C54.2963 32.111 54.2963 21.889 53.111 11.7706C52.4345 5.99654 47.7897 1.47156 42.0361 0.829566ZM12.4403 5.08536C22.0365 4.0146 31.9635 4.0146 41.5597 5.08536C45.3632 5.50976 48.41 8.50625 48.8507 12.268C49.9974 22.056 49.9974 31.944 48.8507 41.732C48.41 45.4937 45.3632 48.4902 41.5597 48.9146C31.9635 49.9854 22.0365 49.9854 12.4403 48.9146C8.6368 48.4902 5.59 45.4937 5.1493 41.732C4.00264 31.944 4.00264 22.056 5.1493 12.268C5.59 8.50625 8.6368 5.50976 12.4403 5.08536Z" fill="white"></path>
+      </svg>
+    </a>
+      </div>
+    </div>
+    <div id="logo">
+      <img src="https://brasilescola.uol.com.br/assets/images/logos/logo-br-escola.webp" alt="">
+    </div>
+
+    <div class="group">
+      <div class="topoBox">
+        <div id="form">
+          <form action="https://brasilescola.uol.com.br/busca/" method="get">
+           <input type="search" placeholder="Pesquise aqui"> 
+
+            <input type="image" src="https://brasilescola.uol.com.br/assets/images/variados/go-search.svg">
+          </form>
+
+         </div>
+      </div>
+      
   
+      <div class="topoBox">
+        <div id="login" class="socialBox">
+          <img src="https://brasilescola.uol.com.br/assets/images/perfil.svg" alt="">
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+</header>
+    <nav>
+      <ul class="wrap flex-between">
+        <li>
+          <a href=""><img src="https://brasilescola.uol.com.br/assets/images/icons/icon-disciplina.svg" alt=""> Disciplinas</a> 
+          
+        </li>
+        <li>
+          <a href="">
+            <img src="https://brasilescola.uol.com.br/assets/images/icons/icon-especial.svg" alt=""> Estrelas
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="https://brasilescola.uol.com.br/assets/images/icons/icon-tireduvidas.svg" alt=""> Tire Dúvidas
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="https://brasilescola.uol.com.br/assets/images/icons/icon-enem.svg" alt="">Enem
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="https://brasilescola.uol.com.br/assets/images/icons/icon-vestibular.svg" alt=""> Vestibular
+          </a>
+        </li>
+        <li>
+          <a href=""><img src="https://brasilescola.uol.com.br/assets/images/icons/icon-pesquisas.svg" alt=""> Mais pesquisas</a>
+        </li>
+        <li>
+          <a href=""><img src="https://brasilescola.uol.com.br/assets/images/icons/icon-educador.svg" alt=""> Educador</a>
+        </li>
+        <li>
+          <a href=""><img src="https://brasilescola.uol.com.br/assets/images/icons/icon-oquee.svg" alt=""> O que é</a>
+        </li>
+        <li>
+          <a href=""><img src="https://brasilescola.uol.com.br/assets/images/icons/icon-exercicios.svg" alt="">Exercícios</a>
+        </li>
+        <li>
+          <a href=""><img src="https://brasilescola.uol.com.br/assets/images/icons/icon-monografias.svg" alt="">Monografias</a>
+        </li>
+        <li>
+          <a href=""><img src="https://brasilescola.uol.com.br/assets/images/icons/icon-videos.svg" alt="">Vídeos</a>
+        </li>
+        <li>
+          <a href=""><img src="https://brasilescola.uol.com.br/assets/images/icons/icon-canais.svg" alt="">Canais</a>
+        </li>
+      </ul>
+    </nav>
+ 
+<!-- MAIN CONTENT -->
+  <section id="main" class="wrap">
+    <div class="navigation"> HOME > GEOGRAFIA > GALÁXIA</div>
+    <h1 class="mainTitle">Galáxia</h1>
+    <p class="mainBody">As galáxias são conjuntos de estrelas, poeira, gases e matéria escura que formam o Universo. Elas podem ser elípticas, espirais, como a Via Láctea, ou possuir forma irregular.</p>
+    <figure>
+      <div class="mainImg">
+        <img src="https://s5.static.brasilescola.uol.com.br/be/2021/09/galaxia-do-triangulo.jpg" alt="">
+        <figcaption>Galáxia do Triângulo ou Messier 33.</figcaption>
+      </div>
+     
+    </figure>
+  </section>
+  <section class="wrap">
+    <article class="bodyContent">
+      <div class="wrap publiContainer">
+        <div >
+          PUBLICIDADE
+          <div class="publicity">
+          
+            <div>
+  
+            </div>
+  
+          </div>
+        </div>
+       
+        <p>"As galáxias são sistemas formados por milhares a trilhões de estrelas, poeira, gases e matéria escura. Sua classificação e identificação pode ocorrer de acordo com a forma, sendo assim elípticas, espirais ou irregulares (quando não possuem um contorno definido). A Via Láctea, galáxia em que vivemos, é uma das maiores da região do Universo conhecida como Grupo Local e segue em processo de evolução, o que ocasionará a sua colisão com a galáxia de Andrômeda.
+
+          Leia também: <a href="https://brasilescola.uol.com.br/fisica/curiosidades-sobre-sistema-solar.htm" target="_blank">Curiosidades sobre o Sistema Solar</a>
+          
+          Veja mais sobre "Galáxia" em: <a href="https://brasilescola.uol.com.br/geografia/galaxia.htm"></a> </p>
+      </div>
+      <h2>
+        "Tópicos deste artigo"
+      </h2>
+      <ol>
+        <li><a href="">Resumo sobre as galáxias</a></li>
+        <li><a href="">O que é Galáxia?</a></li>
+        <li><a href="">Tipos de galáxia</a></li>
+        <li><a href="">Quais são as principais galáxias?</a></li>
+        <li><a href="">Formação de uma galáxia</a></li>
+        <li><a href="">Evolução da galáxia</a></li>
+
+      </ol>
+      <h2>Resumo sobre as galáxias</h2>
+      <ul>
+        <li>
+          Galáxias são sistemas ou conjuntos compostos por estrelas, gases, poeira e matéria escura
+        </li>
+        <li>
+          A maioria das grandes galáxias possui buracos negros no seu centro
+        </li>
+        <li>
+          Elas são definidas de acordo com a sua forma, podendo ser espirais, elípticas ou irregulares.
+        </li>
+        <li>
+          Entre as principais galáxias, temos a Via Láctea, na qual vivemos, Andrômeda, Galáxia do Triângulo e Nuvem de Magalhães.
+
+        </li>
+      </ul>
+      <h2 id="">O que é galáxia?</h2>
+      <p>
+        Galáxias são sistemas formados por uma vasta quantidade de estrelas, poeira, gases e matéria escura. Esse conjunto de elementos é unido pela força da gravidade. Algumas galáxias, em especial aquelas de maiores dimensões, possuem grandes buracos negros no seu centro, como é o caso daquela em que vivemos, a Via Láctea.
+        </p>
+        <p>
+          As galáxias podem ocorrer e evoluir isoladamente ou agrupadas, passando por processos de interação e até mesmo colisão, o que dá origem a supernovas, estrelas e novos buracos negros. Elas se diferenciam ainda em extensão, forma e peso. A mais leve das galáxias, de acordo com a Administração Nacional da Aeronáutica e Espaço dos Estados Unidos, a Nasa, possui um bilhão de massas solares (Мʘ), enquanto as mais pesadas ficam em torno de 30 trilhões Мʘ. A massa solar é uma unidade de medida usada para calcular a massa de estrelas e galáxias, e corresponde a 1,99 x 1030 kg."
+      </p>
+      <h2>Tipos de galáxia</h2>
+      <p>A classificação das galáxias é feita por meio da observação de seu formato. Identificam-se ao menos três tipos de galáxias: as elípticas, as espirais e as irregulares.</p>
+      <ul>
+        <li>"Elípticas: possuem forma circular e achatada. As galáxias elípticas são integradas por uma menor quantidade de poeira e gás quando comparadas às demais. Possuem estrelas muito antigas, e há pouca ou nenhuma atividade de formação de novos astros. Algumas das galáxias elípticas são muito alongadas, e as maiores delas chegam a até 300.000 anos-luz de diâmetro, de acordo com a Nasa. As menores, chamadas de galáxias anãs, são, no entanto, mais comuns. Aproximadamente um terço das galáxias do Universo tem formato elíptico, como Andrômeda."
+        </li>
+      </ul>
+      <figure>
+        <div class="mainImg">
+          <img src="https://s1.static.brasilescola.uol.com.br/be/2021/09/galaxia-andromeda.jpg" alt="">
+          <figcaption>Galáxia de Andrômeda, um exemplo de galáxia elíptica<figcaption>
+        </div>
+       
+      </figure>
+      <ul>
+        <li><strong>Espirais:</strong> são as mais comuns e correspondem a dois terços de todas as galáxias conhecidas, uma delas a Via Láctea. As galáxias espirais possuem uma forma que se assemelha a um disco, composto por braços que a circundam, os quais podem sair diretamente de uma região central, denominada núcleo (espirais normais), ou de uma barra de estrelas que atravessa o seu centro (espirais barradas). Aparecem com uma cor branco-azulada e são compostas por gases, poeira e estrelas, havendo intenso processo de formação de novos astros no seu interior.</li>
+      </ul>
+      
+      <figure>
+        <div class="mainImg">
+          <img src="https://s3.static.brasilescola.uol.com.br/be/2021/09/via-lactea.jpg" alt="">
+          <figcaption>Via Láctea, uma galáxia espiral<figcaption>
+        </div>
+       
+      </figure>
+      <ul>
+        <li><strong>Irregulares:</strong> como o próprio nome sugere, as galáxias irregulares não possuem um formato definido que permita uma classificação mais pormenorizada. São formações muito antigas, que apareceram anteriormente às elípticas e espirais. Elas são formadas por poeira e gases, e a sua forma irregular ocorre em função da influência do campo gravitacional de outras galáxias localizadas na sua proximidade. De acordo com a Nasa, esse tipo de galáxia era o mais abundante no início da composição do Universo e, em função disso, aquelas observadas hoje em dia são muito antigas.</li>
+      </ul>
+
+      <figure>
+        <div class="mainImg">
+          <img src="https://s2.static.brasilescola.uol.com.br/be/2021/09/nuvem-de-magalhaes.jpg" alt="">
+          <figcaption>Pequena Nuvem de Magalhães, uma galáxia anã do tipo irregular<figcaption>
+        </div>
+       
+      </figure>
+
+     <p>Leia também: <a href="https://brasilescola.uol.com.br/geografia/exoplanetas.htm">Exoplanetas — planetas que se encontram fora do Sistema Solar"</a>
+
+      </p>
+      <h2>Quais são as principais galáxias?</h2>
+      <p>Estima-se que o Universo seja formado por um total de dois trilhões de galáxias, muitas delas ainda desconhecidas pela ciência. A descoberta mais recente foi publicada na revista Science, em fevereiro de 2021. Trata-se de uma galáxia formada há aproximadamente 1,2 bilhão de anos e que recebeu a denominação de ALESS 073.1. Há, no entanto, outras galáxias que são amplamente conhecidas e algumas podem ser vistas até mesmo a olho nu.</p>
+      <ul>
+        <li><strong>Via Láctea:</strong> é a galáxia em que está localizado o Sistema Solar e, portanto, onde vivemos. Sua forma corresponde a uma espiral barrada, com um núcleo brilhante e barras estelares de onde se projetam os seus braços. Ela possui 100.000 anos-luz de comprimento, o equivalente a 946 quadrilhões de quilômetros. Até o século XX, acreditava-se que ela estava localizada no centro do Universo, e as demais galáxias eram até então interpretadas como sendo nebulosas. Seu peso aproximado é de 1,5 trilhão Мʘ, e estima-se que a Via Láctea possua 200 bilhões de estrelas e um buraco negro de 4 milhões de massas solares no seu interior.</li>
+        
+        <li><strong>Andrômeda:</strong> é a maior e mais brilhante galáxia próxima da Via Láctea e pode ser vista a olho nu. Por vezes, é chamada de Messier 31 (M31), uma vez que foi a 31ª das importantes descobertas feitas pelo astrônomo francês Charles Messier. Ela possui o dobro do diâmetro da Via Láctea, com 250 milhões de anos-luz. Ambas, em conjunto com a Galáxia do Triângulo, correspondem às maiores galáxias do que se conhece como Grupo Local, que é a região do Universo correspondente a um conjunto de 54 outros conglomerados estelares, incluindo galáxias anãs. Possui um trilhão de estrelas e massa de 1,2 bilhão M☉.</li>
+        
+        <li><strong>Galáxia do Triângulo:</strong> conhecida também como Messier 33, é uma galáxia em espiral que faz parte do Grupo Local, com diâmetro de 60 mil anos-luz, portanto menor do que a Via Láctea, mas a terceira maior da região. É formada por 40 milhões de estrelas, e estima-se que a sua massa seja de 50 bilhões M☉.</li>
+        
+        <li><strong>Nuvens de Magalhães:</strong> são duas galáxias satélites da Via Láctea. A menor delas se chama Pequena Nuvem de Magalhães e possui diâmetro de 7 mil anos-luz. A Grande Nuvem de Magalhães, por sua vez, mede 14 mil anos-luz de diâmetro, e ambas são consideradas galáxias anãs."</li>
+      </ul>
+
+      <h2>Formação de uma galáxia</h2>
+         <p>Ainda é difícil precisar quais os princípios que regem a formação das galáxias. Esse assunto é bastante debatido pelos astrônomos, e existem diversas teorias que procuram explicar como esses sistemas tiveram origem. Com relação ao período temporal, acredita-se que os primeiros aglomerados de estrelas e outros elementos começaram a se juntar 400 milhões de anos após a grande explosão que formou o Universo, chamada de Big Bang, que teria ocorrido há 13,8 bilhões de anos.</p>
+        <p>
+        A principal teoria voltada à origem das galáxias explica que esses corpos tomaram forma a partir da intensa força gravitacional de um núcleo composto por matéria escura. O seu efeito causou a desintegração de nuvens em gases e poeira, que iniciaram um movimento orbital em torno desse núcleo, atraindo novos elementos e dando origem às estrelas. Esse processo originou grandes aglomerados que podem aparecer sem forma definida ou ainda como discos e braços conhecidos como galáxias.</p>
+
+        <p>Confira no nosso podcast: <a href="https://brasilescola.uol.com.br/podcasts/buraco-de-minhoca.htm">Buracos de minhoca — túneis capazes de conectar diferentes posições do espaço-tempo</a></p>
+
+         <h2>Evolução da galáxia</h2>
+         <p>As galáxias não são estáticas no tempo-espaço, e tampouco duram para sempre. Elas evoluem de forma isolada ou em grupo, o que é observado sobretudo por meio de sua forma e das cores que elas exibem. Aquelas que não interagem com outros corpos semelhantes vão gradualmente deixando de formar estrelas, e seu brilho se transforma de intenso para fraco com o passar do tempo, e a sua coloração aparece mais avermelhada</p>
+         <p>
+          Quando esses conjuntos interagem, o que ocorre é a sua colisão ou junção. Nesse processo não ocorre a destruição de corpos celestes, mas sim a interligação de um sistema com o outro, que pode ou não condicionar a formação de novas estrelas e supernovas, as quais fornecerão material para o surgimento de outras estrelas. Quando as galáxias se juntam, há transformação no seu formato, na sua massa e, é claro, na sua composição.</p>
+
+    </article>
+    
+  </section>
 </body>
 </html>

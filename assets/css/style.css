@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+
+}
+:root{
+    --bs-body-color: #212529;
+}
+html,body{
+    width: 100%;
+    background-color: bisque;    
+}
+
+header{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+#topo{
+    display: flex;
+    width: 100%;
+    max-width: 1280px;
+    justify-content: space-between;
+}
+
+.topoBox{
+    display: flex;
+    align-items:center ;
+    gap: 10px;
+}
+
+.socialBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,121,30,1) 0%, rgba(0,186,9,1) 100%);
+    border-radius: 6px
+}
+.socialBox a{
+    display: flex;
+    align-items: center;
+}
+#topo{
+    display: flex;
+}
+
+#logo img{
+    height: 120px;
+}
+.group{
+    display: flex;
+    gap: 1rem;
+}
+input{
+    height: 50px;
+    width: 220px;
+    border-radius: .5rem;
+    border: none;
+    padding: .8rem
+}
+form{
+    display: flex;
+    align-items: center;
+}
+input[type="image"]{
+    position: relative;
+    right: 30px;
+    width: .8rem;
+    cursor: pointer;
+    /* border: 1px solid greenyellow;
+    z-index: 9; */
+}
+
+/* Nav */
+nav{
+    width: 100%;
+    background-image: url("https://brasilescola.uol.com.br/assets/images/header-novo.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.wrap{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+}
+nav ul{
+    display: flex;
+
+}
+nav ul li{
+    display: flex;
+    list-style: none;
+    padding: 2rem 1rem;
+}
+nav ul li a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+  
+}
+nav ul li a img{
+    width: 2rem;
+    text-align: center;
+    margin-bottom: .8rem;
+  
+}
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;   
+
+}
+
+/* Main content */
+#main{
+    width: 100%;
+    padding: 2rem 6rem;
+}
+
+h1.mainTitle{
+    margin: 1.5rem 0;
+    font-size: 3rem;
+}
+p.mainBody{
+    margin: 1.5rem 0;;
+}
+
+.mainImg{
+    text-align: center;
+}
+.mainImg img{
+    /* border: 1px solid red; */
+    border-radius: 1rem;
+} 
+
+/* MAIN BODY */
+
+article.bodyContent{
+    padding: 0 6rem;
+}
+.publiContainer{
+    display: flex;
+    gap: 2rem;
+}
+.publicity{
+
+    width: 300px;
+    height: 300px;
+    background-color: lightgray;
+}
+p,li,a{
+    line-height: 1.5rem;
+    color: var(--bs-body-color);
+}
+article h2{
+    margin-top: 1.5rem;
+}
+
+article figure{
+    margin: 2rem 0;
+}
