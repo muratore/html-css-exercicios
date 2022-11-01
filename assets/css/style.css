@@ -177,6 +177,11 @@ article figure{
 .sub-menu{
     width: 100%;
     height: 300px;
-    color: yellow;
-    
+    background-color: yellow;
+    display: none;
+
+}
+
+ul li .sub-menu:hover{
+    display: flex;
 }
