@@ -70,8 +70,8 @@ form{
 }
 input[type="image"]{
     position: relative;
-    right: 30px;
-    width: .8rem;
+    right: 40px;
+    width: 2.5rem;
     cursor: pointer;
     /* border: 1px solid greenyellow;
     z-index: 9; */
