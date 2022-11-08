@@ -1,0 +1,41 @@
+table{
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+th, td{
+  border-bottom: 1px solid grey;
+  padding: .5rem;
+  margin: 0;
+}
+
+table th{
+  background-color: grey;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+table:last-child{
+  border-bottom: 4px solid grey;
+
+}
+
+table th:first-child{
+  border-top-left-radius: 10px;
+  
+}
+table th:last-child{
+  border-top-right-radius: 10px;
+ 
+}
+
+
+
