@@ -5,8 +5,8 @@ table{
 }
 
 th, td{
-  border-bottom: 1px solid grey;
-  padding: .5rem;
+  border-bottom: 1px dashed grey;
+  padding: 1rem;
   margin: 0;
 }
 
@@ -21,6 +21,30 @@ table th{
   width: 100%;
   margin: 0 auto;
   max-width: 1200px;
+}
+
+/* APLICA O FIO LATERAL EM td */
+tr > td{
+  border-right: 1px solid black;
+}
+/* APLICA O FIO LATERAL EM th */
+tr > th{
+  border-right: 3px solid white;
+}
+tr > th:last-child, tr > td:last-child{
+  border-right: none;
+}
+
+/* APLICAR ESTILO NAS LINHAS PARES */
+/* tr:nth-child(even){
+  background-color: lightgrey;
+} */
+
+tr:nth-child(even):hover{
+  background-color: white;
+}
+tr:nth-child(odd):hover{
+  background-color: rgb(155, 229, 239);
 }
 
 table:last-child{
