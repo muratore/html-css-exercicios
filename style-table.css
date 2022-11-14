@@ -1,7 +1,6 @@
 table{
   width: 100%;
   border-collapse: collapse;
-
 }
 
 th, td{
@@ -11,7 +10,7 @@ th, td{
 }
 
 table th{
-  background-color: grey;
+  background-color: rgb(152, 183, 194);
   text-transform: uppercase;
   color: white;
   border: none;
@@ -40,13 +39,18 @@ tr > th:last-child, tr > td:last-child{
   background-color: lightgrey;
 } */
 
-tr:nth-child(even):hover{
-  background-color: white;
-}
-tr:nth-child(odd):hover{
+/* tr:nth-child(even):hover{
+  background-color: rgb(184, 171, 171);
+} */
+/* tr:nth-child(odd):hover{
   background-color: rgb(155, 229, 239);
+} */
+tr{
+  transition: background-color .5s;
 }
-
+tr:hover{
+  background-color: rgb(217, 235, 238);
+}
 table:last-child{
   border-bottom: 4px solid grey;
 
